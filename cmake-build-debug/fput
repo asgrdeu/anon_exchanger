@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+function clear_cache() {
+  echo "Removing cache files..."
+  if [ ! -f put ]
+  then
+    echo "OK"
+  else
+    rm -rf put
+    echo "OK"
+  fi
+}
+
+echo "Generating the put batch file..."
+echo "-@cd files\n-@put $3 $4\n-@quit" >> put
+
+if [ ! -f put ]
+then
+  echo "FAIL"
+  clear_cache
+  exit 1
+fi
+echo "OK"
+
+echo "Running the put batch file..."
+if sftp "$1@$2" < put
+then
+  echo "FAIL"
+  clear_cache
+  exit 1
+else
+  echo "OK"
+  clear_cache
+  exit 0
+fi
