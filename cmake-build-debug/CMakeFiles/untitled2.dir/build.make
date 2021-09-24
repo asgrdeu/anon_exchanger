@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maxfps11/CLionProjects/untitled2
+CMAKE_SOURCE_DIR = /Users/mihailevpatov/CLionProjects/untitled2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maxfps11/CLionProjects/untitled2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled2.dir/depend.make
@@ -68,48 +68,76 @@ include CMakeFiles/untitled2.dir/flags.make
 
 CMakeFiles/untitled2.dir/main.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled2.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/main.cpp.o -c /Users/maxfps11/CLionProjects/untitled2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled2.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/main.cpp.o -c /Users/mihailevpatov/CLionProjects/untitled2/main.cpp
 
 CMakeFiles/untitled2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxfps11/CLionProjects/untitled2/main.cpp > CMakeFiles/untitled2.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mihailevpatov/CLionProjects/untitled2/main.cpp > CMakeFiles/untitled2.dir/main.cpp.i
 
 CMakeFiles/untitled2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxfps11/CLionProjects/untitled2/main.cpp -o CMakeFiles/untitled2.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mihailevpatov/CLionProjects/untitled2/main.cpp -o CMakeFiles/untitled2.dir/main.cpp.s
 
 CMakeFiles/untitled2.dir/module/sys/sys.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/module/sys/sys.cpp.o: ../module/sys/sys.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled2.dir/module/sys/sys.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/module/sys/sys.cpp.o -c /Users/maxfps11/CLionProjects/untitled2/module/sys/sys.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled2.dir/module/sys/sys.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/module/sys/sys.cpp.o -c /Users/mihailevpatov/CLionProjects/untitled2/module/sys/sys.cpp
 
 CMakeFiles/untitled2.dir/module/sys/sys.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/module/sys/sys.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxfps11/CLionProjects/untitled2/module/sys/sys.cpp > CMakeFiles/untitled2.dir/module/sys/sys.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mihailevpatov/CLionProjects/untitled2/module/sys/sys.cpp > CMakeFiles/untitled2.dir/module/sys/sys.cpp.i
 
 CMakeFiles/untitled2.dir/module/sys/sys.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/module/sys/sys.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxfps11/CLionProjects/untitled2/module/sys/sys.cpp -o CMakeFiles/untitled2.dir/module/sys/sys.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mihailevpatov/CLionProjects/untitled2/module/sys/sys.cpp -o CMakeFiles/untitled2.dir/module/sys/sys.cpp.s
 
 CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.o: CMakeFiles/untitled2.dir/flags.make
 CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.o: ../module/sftp/sftp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.o -c /Users/maxfps11/CLionProjects/untitled2/module/sftp/sftp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.o -c /Users/mihailevpatov/CLionProjects/untitled2/module/sftp/sftp.cpp
 
 CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/maxfps11/CLionProjects/untitled2/module/sftp/sftp.cpp > CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mihailevpatov/CLionProjects/untitled2/module/sftp/sftp.cpp > CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.i
 
 CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/maxfps11/CLionProjects/untitled2/module/sftp/sftp.cpp -o CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mihailevpatov/CLionProjects/untitled2/module/sftp/sftp.cpp -o CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.s
+
+CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.o: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.o: ../module/sftp/ftp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.o -c /Users/mihailevpatov/CLionProjects/untitled2/module/sftp/ftp.cpp
+
+CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mihailevpatov/CLionProjects/untitled2/module/sftp/ftp.cpp > CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.i
+
+CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mihailevpatov/CLionProjects/untitled2/module/sftp/ftp.cpp -o CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.s
+
+CMakeFiles/untitled2.dir/module/auth/auth.cpp.o: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/module/auth/auth.cpp.o: ../module/auth/auth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled2.dir/module/auth/auth.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled2.dir/module/auth/auth.cpp.o -c /Users/mihailevpatov/CLionProjects/untitled2/module/auth/auth.cpp
+
+CMakeFiles/untitled2.dir/module/auth/auth.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/module/auth/auth.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mihailevpatov/CLionProjects/untitled2/module/auth/auth.cpp > CMakeFiles/untitled2.dir/module/auth/auth.cpp.i
+
+CMakeFiles/untitled2.dir/module/auth/auth.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/module/auth/auth.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mihailevpatov/CLionProjects/untitled2/module/auth/auth.cpp -o CMakeFiles/untitled2.dir/module/auth/auth.cpp.s
 
 # Object files for target untitled2
 untitled2_OBJECTS = \
 "CMakeFiles/untitled2.dir/main.cpp.o" \
 "CMakeFiles/untitled2.dir/module/sys/sys.cpp.o" \
-"CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.o"
+"CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.o" \
+"CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.o" \
+"CMakeFiles/untitled2.dir/module/auth/auth.cpp.o"
 
 # External object files for target untitled2
 untitled2_EXTERNAL_OBJECTS =
@@ -117,9 +145,12 @@ untitled2_EXTERNAL_OBJECTS =
 untitled2: CMakeFiles/untitled2.dir/main.cpp.o
 untitled2: CMakeFiles/untitled2.dir/module/sys/sys.cpp.o
 untitled2: CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.o
+untitled2: CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.o
+untitled2: CMakeFiles/untitled2.dir/module/auth/auth.cpp.o
 untitled2: CMakeFiles/untitled2.dir/build.make
+untitled2: /usr/local/opt/curl/lib/libcurl.dylib
 untitled2: CMakeFiles/untitled2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable untitled2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable untitled2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -131,6 +162,6 @@ CMakeFiles/untitled2.dir/clean:
 .PHONY : CMakeFiles/untitled2.dir/clean
 
 CMakeFiles/untitled2.dir/depend:
-	cd /Users/maxfps11/CLionProjects/untitled2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/maxfps11/CLionProjects/untitled2 /Users/maxfps11/CLionProjects/untitled2 /Users/maxfps11/CLionProjects/untitled2/cmake-build-debug /Users/maxfps11/CLionProjects/untitled2/cmake-build-debug /Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mihailevpatov/CLionProjects/untitled2 /Users/mihailevpatov/CLionProjects/untitled2 /Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug /Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug /Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled2.dir/depend
 

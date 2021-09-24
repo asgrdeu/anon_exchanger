@@ -11,7 +11,7 @@ namespace sftp {
     // Найти файл по пути
     bool find_local(const std::string& path);
 
-    // Загрузить локальный файл на удаленный хост
+    // Загрузить локальный файл на удаленный хост используя sftp протокол
     bool put(const std::string& lpath, const std::string& rpath);
 
     // Поиск файла на сервере по sha256sum
@@ -20,6 +20,4 @@ namespace sftp {
     // Загрузка удаленного файла на локальный хост
     bool get(const char *sha256sum);
 };
-
-
 #endif //UNTITLED2_SFTP_H

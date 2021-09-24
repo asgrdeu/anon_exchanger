@@ -1,3 +1,4 @@
-/Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir
+/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/sftp_test.dir
+/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir

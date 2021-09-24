@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="untitled2"/>
+		<Option title="sftp_test"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -129,18 +129,6 @@
 		<Unit filename="/Users/mihailevpatov/CLionProjects/untitled2/main.cpp">
 			<Option target="untitled2"/>
 		</Unit>
-		<Unit filename="/Users/mihailevpatov/CLionProjects/untitled2/module/auth/auth.cpp">
-			<Option target="untitled2"/>
-		</Unit>
-		<Unit filename="/Users/mihailevpatov/CLionProjects/untitled2/module/auth/auth.h">
-			<Option target="untitled2"/>
-		</Unit>
-		<Unit filename="/Users/mihailevpatov/CLionProjects/untitled2/module/sftp/ftp.cpp">
-			<Option target="untitled2"/>
-		</Unit>
-		<Unit filename="/Users/mihailevpatov/CLionProjects/untitled2/module/sftp/ftp.h">
-			<Option target="untitled2"/>
-		</Unit>
 		<Unit filename="/Users/mihailevpatov/CLionProjects/untitled2/module/sftp/sftp.cpp">
 			<Option target="untitled2"/>
 		</Unit>
@@ -154,6 +142,9 @@
 			<Option target="untitled2"/>
 		</Unit>
 		<Unit filename="/Users/mihailevpatov/CLionProjects/untitled2/sftp_test/sftp_test.cpp">
+			<Option target="sftp_test"/>
+		</Unit>
+		<Unit filename="/Users/mihailevpatov/CLionProjects/untitled2/sftp_test/sftp_test.h">
 			<Option target="sftp_test"/>
 		</Unit>
 		<Unit filename="/Users/mihailevpatov/CLionProjects/untitled2/CMakeLists.txt">

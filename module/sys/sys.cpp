@@ -3,6 +3,7 @@
 //
 
 #include <vector>
+#include <iostream>
 #include "sys.h"
 
 std::string sys::get_file_link(const char *argv0, const std::string& path) {
@@ -32,7 +33,7 @@ void sys::get_config_params(std::map<std::string, std::string> &params_buff, con
     char buff[64];
     std::vector<std::string> temp;
 
-    FILE* pipe = popen(("cat " + path + " | grep -oE '[a-z0-9]+'").c_str(), "r");
+    FILE* pipe = popen(("cat " + path + " | grep -oE '([a-z0-9]|[.]|-)+'").c_str(), "r");
 
     for (int i = 0; fgets(buff, sizeof(buff), pipe); i++) {
         temp.resize(i + 1);
@@ -40,8 +41,13 @@ void sys::get_config_params(std::map<std::string, std::string> &params_buff, con
         temp[i] = temp[i].substr(0, temp[i].size() - 1);
     }
 
-    for (int i = 0; i <= temp.size() / 2; i+=2)
-        params_buff.emplace(temp[i], temp[i + 1]);
+    for (int i = 0; i < temp.size(); i++)
+        if (i % 2 == 1)
+            params_buff.emplace(temp[i - 1], temp[i]);
 
     pclose(pipe);
+}
+
+std::string sys::get_file_extension(const std::string &path) {
+    return std::filesystem::path(path).extension().string();
 }

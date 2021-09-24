@@ -6,32 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/mihailevpatov/CLionProjects/untitled2/main.cpp
-iostream
--
-vector
--
-map
--
-module/sys/sys.h
-/Users/mihailevpatov/CLionProjects/untitled2/module/sys/sys.h
-module/sftp/ftp.h
-/Users/mihailevpatov/CLionProjects/untitled2/module/sftp/ftp.h
-module/auth/auth.h
-/Users/mihailevpatov/CLionProjects/untitled2/module/auth/auth.h
-
-/Users/mihailevpatov/CLionProjects/untitled2/module/auth/auth.h
-string
--
-
-/Users/mihailevpatov/CLionProjects/untitled2/module/sftp/ftp.h
+/Users/mihailevpatov/CLionProjects/untitled2/sftp_test/sftp_test.cpp
 cstdio
 -
 cstring
--
-cerrno
--
-string
 -
 curl/curl.h
 -
@@ -41,15 +19,11 @@ sys/stat.h
 -
 fcntl.h
 -
+cerrno
+-
 io.h
 -
 unistd.h
--
-
-/Users/mihailevpatov/CLionProjects/untitled2/module/sys/sys.h
-filesystem
--
-map
 -
 
 /usr/local/opt/curl/include/curl/curl.h

@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maxfps11/CLionProjects/untitled2
+CMAKE_SOURCE_DIR = /Users/mihailevpatov/CLionProjects/untitled2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maxfps11/CLionProjects/untitled2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles /Users/maxfps11/CLionProjects/untitled2/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles /Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -115,6 +115,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named sftp_test
+
+# Build rule for target.
+sftp_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sftp_test
+.PHONY : sftp_test
+
+# fast build rule for target.
+sftp_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sftp_test.dir/build.make CMakeFiles/sftp_test.dir/build
+.PHONY : sftp_test/fast
 
 #=============================================================================
 # Target rules for targets named untitled2
@@ -152,6 +165,54 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+module/auth/auth.o: module/auth/auth.cpp.o
+.PHONY : module/auth/auth.o
+
+# target to build an object file
+module/auth/auth.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/module/auth/auth.cpp.o
+.PHONY : module/auth/auth.cpp.o
+
+module/auth/auth.i: module/auth/auth.cpp.i
+.PHONY : module/auth/auth.i
+
+# target to preprocess a source file
+module/auth/auth.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/module/auth/auth.cpp.i
+.PHONY : module/auth/auth.cpp.i
+
+module/auth/auth.s: module/auth/auth.cpp.s
+.PHONY : module/auth/auth.s
+
+# target to generate assembly for a file
+module/auth/auth.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/module/auth/auth.cpp.s
+.PHONY : module/auth/auth.cpp.s
+
+module/sftp/ftp.o: module/sftp/ftp.cpp.o
+.PHONY : module/sftp/ftp.o
+
+# target to build an object file
+module/sftp/ftp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.o
+.PHONY : module/sftp/ftp.cpp.o
+
+module/sftp/ftp.i: module/sftp/ftp.cpp.i
+.PHONY : module/sftp/ftp.i
+
+# target to preprocess a source file
+module/sftp/ftp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.i
+.PHONY : module/sftp/ftp.cpp.i
+
+module/sftp/ftp.s: module/sftp/ftp.cpp.s
+.PHONY : module/sftp/ftp.s
+
+# target to generate assembly for a file
+module/sftp/ftp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.s
+.PHONY : module/sftp/ftp.cpp.s
 
 module/sftp/sftp.o: module/sftp/sftp.cpp.o
 .PHONY : module/sftp/sftp.o
@@ -201,6 +262,30 @@ module/sys/sys.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/module/sys/sys.cpp.s
 .PHONY : module/sys/sys.cpp.s
 
+sftp_test/sftp_test.o: sftp_test/sftp_test.cpp.o
+.PHONY : sftp_test/sftp_test.o
+
+# target to build an object file
+sftp_test/sftp_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sftp_test.dir/build.make CMakeFiles/sftp_test.dir/sftp_test/sftp_test.cpp.o
+.PHONY : sftp_test/sftp_test.cpp.o
+
+sftp_test/sftp_test.i: sftp_test/sftp_test.cpp.i
+.PHONY : sftp_test/sftp_test.i
+
+# target to preprocess a source file
+sftp_test/sftp_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sftp_test.dir/build.make CMakeFiles/sftp_test.dir/sftp_test/sftp_test.cpp.i
+.PHONY : sftp_test/sftp_test.cpp.i
+
+sftp_test/sftp_test.s: sftp_test/sftp_test.cpp.s
+.PHONY : sftp_test/sftp_test.s
+
+# target to generate assembly for a file
+sftp_test/sftp_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sftp_test.dir/build.make CMakeFiles/sftp_test.dir/sftp_test/sftp_test.cpp.s
+.PHONY : sftp_test/sftp_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -209,16 +294,26 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... sftp_test"
 	@echo "... untitled2"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... module/auth/auth.o"
+	@echo "... module/auth/auth.i"
+	@echo "... module/auth/auth.s"
+	@echo "... module/sftp/ftp.o"
+	@echo "... module/sftp/ftp.i"
+	@echo "... module/sftp/ftp.s"
 	@echo "... module/sftp/sftp.o"
 	@echo "... module/sftp/sftp.i"
 	@echo "... module/sftp/sftp.s"
 	@echo "... module/sys/sys.o"
 	@echo "... module/sys/sys.i"
 	@echo "... module/sys/sys.s"
+	@echo "... sftp_test/sftp_test.o"
+	@echo "... sftp_test/sftp_test.i"
+	@echo "... sftp_test/sftp_test.s"
 .PHONY : help
 
 

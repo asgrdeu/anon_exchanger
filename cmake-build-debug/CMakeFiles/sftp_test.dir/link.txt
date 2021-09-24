@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/sftp_test.dir/sftp_test/sftp_test.cpp.o -o sftp_test  /usr/local/opt/curl/lib/libcurl.dylib 

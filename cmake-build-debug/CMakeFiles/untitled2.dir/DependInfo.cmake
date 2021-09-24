@@ -8,14 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/maxfps11/CLionProjects/untitled2/main.cpp" "/Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/main.cpp.o"
-  "/Users/maxfps11/CLionProjects/untitled2/module/sftp/sftp.cpp" "/Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.o"
-  "/Users/maxfps11/CLionProjects/untitled2/module/sys/sys.cpp" "/Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/module/sys/sys.cpp.o"
+  "/Users/mihailevpatov/CLionProjects/untitled2/main.cpp" "/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/main.cpp.o"
+  "/Users/mihailevpatov/CLionProjects/untitled2/module/auth/auth.cpp" "/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/module/auth/auth.cpp.o"
+  "/Users/mihailevpatov/CLionProjects/untitled2/module/sftp/ftp.cpp" "/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.o"
+  "/Users/mihailevpatov/CLionProjects/untitled2/module/sftp/sftp.cpp" "/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.o"
+  "/Users/mihailevpatov/CLionProjects/untitled2/module/sys/sys.cpp" "/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles/untitled2.dir/module/sys/sys.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/local/opt/curl/include"
   )
 
 # The set of dependency files which are needed:

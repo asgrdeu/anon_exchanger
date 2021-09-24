@@ -3,7 +3,31 @@
 
 CMakeFiles/untitled2.dir/main.cpp.o: \
  ../main.cpp \
- ../module/sys/sys.h
+ ../module/auth/auth.h \
+ ../module/sftp/ftp.h \
+ ../module/sys/sys.h \
+ /usr/local/opt/curl/include/curl/curl.h \
+ /usr/local/opt/curl/include/curl/curlver.h \
+ /usr/local/opt/curl/include/curl/easy.h \
+ /usr/local/opt/curl/include/curl/multi.h \
+ /usr/local/opt/curl/include/curl/options.h \
+ /usr/local/opt/curl/include/curl/system.h \
+ /usr/local/opt/curl/include/curl/typecheck-gcc.h \
+ /usr/local/opt/curl/include/curl/urlapi.h
+CMakeFiles/untitled2.dir/module/auth/auth.cpp.o: \
+ ../module/auth/auth.cpp \
+ ../module/auth/auth.h
+CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.o: \
+ ../module/sftp/ftp.cpp \
+ ../module/sftp/ftp.h \
+ /usr/local/opt/curl/include/curl/curl.h \
+ /usr/local/opt/curl/include/curl/curlver.h \
+ /usr/local/opt/curl/include/curl/easy.h \
+ /usr/local/opt/curl/include/curl/multi.h \
+ /usr/local/opt/curl/include/curl/options.h \
+ /usr/local/opt/curl/include/curl/system.h \
+ /usr/local/opt/curl/include/curl/typecheck-gcc.h \
+ /usr/local/opt/curl/include/curl/urlapi.h
 CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.o: \
  ../module/sftp/sftp.cpp \
  ../module/sftp/sftp.h

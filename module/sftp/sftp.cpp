@@ -9,5 +9,5 @@ bool sftp::find_local(const std::string& path) {
 }
 
 bool sftp::put(const std::string& lpath, const std::string& rpath) {
-    return system(("./fput anon-file-browser 192.168.3.4 " + lpath + " " + rpath).c_str());
+    return system(("./fput anon-file-browser 10.211.55.6 " + lpath + " " + rpath).c_str());
 }

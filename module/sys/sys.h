@@ -12,6 +12,8 @@ namespace sys {
     // Return the absolute file link(path) of parent executable directory files.
     std::string get_file_link(const char* argv0, const std::string& path);
 
+    std::string get_file_extension(const std::string& path);
+
     bool is_regular_file(const std::string& path);
 
     void get_config_params(std::map<std::string, std::string> &params_buff, const std::string& path);

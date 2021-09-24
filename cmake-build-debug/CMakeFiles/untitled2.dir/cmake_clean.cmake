@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled2.dir/main.cpp.o"
+  "CMakeFiles/untitled2.dir/module/auth/auth.cpp.o"
+  "CMakeFiles/untitled2.dir/module/sftp/ftp.cpp.o"
   "CMakeFiles/untitled2.dir/module/sftp/sftp.cpp.o"
   "CMakeFiles/untitled2.dir/module/sys/sys.cpp.o"
   "untitled2"

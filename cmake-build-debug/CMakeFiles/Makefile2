@@ -54,15 +54,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/maxfps11/CLionProjects/untitled2
+CMAKE_SOURCE_DIR = /Users/mihailevpatov/CLionProjects/untitled2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/maxfps11/CLionProjects/untitled2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/sftp_test.dir/all
 all: CMakeFiles/untitled2.dir/all
 .PHONY : all
 
@@ -71,8 +72,35 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/sftp_test.dir/clean
 clean: CMakeFiles/untitled2.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/sftp_test.dir
+
+# All Build rule for target.
+CMakeFiles/sftp_test.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sftp_test.dir/build.make CMakeFiles/sftp_test.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sftp_test.dir/build.make CMakeFiles/sftp_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target sftp_test"
+.PHONY : CMakeFiles/sftp_test.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sftp_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sftp_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/sftp_test.dir/rule
+
+# Convenience name for target.
+sftp_test: CMakeFiles/sftp_test.dir/rule
+.PHONY : sftp_test
+
+# clean rule for target.
+CMakeFiles/sftp_test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sftp_test.dir/build.make CMakeFiles/sftp_test.dir/clean
+.PHONY : CMakeFiles/sftp_test.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/untitled2.dir
@@ -81,14 +109,14 @@ clean: CMakeFiles/untitled2.dir/clean
 CMakeFiles/untitled2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target untitled2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7,8 "Built target untitled2"
 .PHONY : CMakeFiles/untitled2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/untitled2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/untitled2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/maxfps11/CLionProjects/untitled2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mihailevpatov/CLionProjects/untitled2/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/untitled2.dir/rule
 
 # Convenience name for target.

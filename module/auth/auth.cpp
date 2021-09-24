@@ -9,11 +9,11 @@ AuthData auth() {
     char buffer[64];
     AuthData auth_d;
 
-    system("chmod +x ../auth.sh");
-    system("chmod +x ../auth_data.sh");
-    system("../auth.sh");
+    system("chmod +x ./auth.sh");
+    system("chmod +x ./auth_data.sh");
+    system("./auth.sh");
 
-    pipe = popen("../auth_data.sh", "r");
+    pipe = popen("./auth_data.sh", "r");
 
     fgets(buffer, sizeof(buffer), pipe);
     auth_d.login = buffer;
